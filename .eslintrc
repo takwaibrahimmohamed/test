@@ -1,0 +1,14 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "react/no-unescaped-entities": "off",
+    "react/jsx-key": "off",
+    "quotes": ["error", "single"],
+    "node/no-unpublished-require": "off"
+  }
+}
